@@ -3,23 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+    <parent>
+        <groupId>eu.fasten-project.tests.syntheticjars</groupId>
+        <artifactId>root</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    <artifactId>app</artifactId>
+
     <modelVersion>4.0.0</modelVersion>
+    <name>app</name>
+
     <dependencies>
         <dependency>
-            <groupId>org.example</groupId>
+            <groupId>eu.fasten-project.tests.syntheticjars</groupId>
             <artifactId>lib</artifactId>
             <version>0.0.1</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-    <parent>
-        <artifactId>synthetic-testing-jars</artifactId>
-        <groupId>org.example</groupId>
-        <version>0.0.1</version>
-    </parent>
-
-    <artifactId>app</artifactId>
-
 
 </project>
